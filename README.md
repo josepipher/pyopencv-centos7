@@ -14,4 +14,4 @@ On the container, run python:
 It should give version '3.1.0'
 
 # Reference:
-[Install OpenCV 3.1 and Python 2.7 on CentOS 7] (https://computervisiononline.com/blog/install-opencv-31-and-python-27-centos-7)
+[Install OpenCV 3.1 and Python 2.7 on CentOS 7](https://computervisiononline.com/blog/install-opencv-31-and-python-27-centos-7)
