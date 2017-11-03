@@ -2,7 +2,9 @@
 Python OpenCV on Centos7
 ------------------------
 # Run the container
+```docker
 docker run -it sanjose/pyopencv-centos7 bash
+```
 
 On the container, run python:
 ```python
