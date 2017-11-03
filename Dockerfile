@@ -5,7 +5,7 @@ RUN cd ~ \
 	&& yum install epel-release -y \
 	&& yum update -y \
 	&& yum groupinstall 'Development Tools' -y \
-	&& yum install cmake git pkgconfig libpng-devel libjpeg-turbo-devel jasper-devel openexr-devel libtiff-devel libwebp-devel libdc1394-devel libv4l-devel gstreamer-plugins-base-devel gtk2-devel tbb-devel eigen3-devel \
+	&& yum install -y cmake git pkgconfig libpng-devel libjpeg-turbo-devel jasper-devel openexr-devel libtiff-devel libwebp-devel libdc1394-devel libv4l-devel gstreamer-plugins-base-devel gtk2-devel tbb-devel eigen3-devel \
 	&& curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py" \
 	&& python get-pip.py \
 	&& pip install virtualenv virtualenvwrapper \
