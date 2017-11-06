@@ -28,4 +28,10 @@ RUN cd ~ \
 	&& make && make install && ldconfig \
 	&& ls /usr/local/lib/python2.7/site-packages \
 	&& cd ~/.virtualenvs/cv/lib/python2.7/site-packages/ \
-	&& ln -s /usr/local/lib/python2.7/site-packages/cv2.so cv2.so
+	&& ln -s /usr/local/lib/python2.7/site-packages/cv2.so cv2.so \
+	&& yum clean all \
+	&& rm -rf /var/cache/yum \
+	&& export WORKON_HOME=$HOME/.virtualenvs \
+	&& source /usr/bin/virtualenvwrapper.sh \
+	&& source ~/.bashrc \
+	&& work on cv
