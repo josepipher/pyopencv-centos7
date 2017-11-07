@@ -34,4 +34,4 @@ RUN cd ~ \
 	&& export WORKON_HOME=$HOME/.virtualenvs \
 	&& source /usr/bin/virtualenvwrapper.sh \
 	&& source ~/.bashrc \
-	&& work on cv
+	&& workon cv
